@@ -7,10 +7,10 @@ use Illuminate\Database\Eloquent\Model;
 
 class studentsModel extends Model
 {
-    protected $table = 'students';
-    protected $primaryKey = 'id';
-    protected $incrementing = true;
-    protected $keyType = 'int';
-    protected $timestamps = false;
+    public $table = 'students';
+    public $primaryKey = 'id';
+    public $incrementing = true;
+    public $keyType = 'int';
+    public $timestamps = true;
     use HasFactory;
 }

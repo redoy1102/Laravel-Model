@@ -7,11 +7,11 @@ use Illuminate\Database\Eloquent\Model;
 
 class exam_marksModel extends Model
 {
-    protected $table = 'exam_marks';
-    protected $primaryKey = 'id';
-    protected $incrementing = true;
-    protected $keyType = 'int';
-    protected $timestamps = false;
+    public $table = 'exam_marks';
+    public $primaryKey = 'id';
+    public $incrementing = true;
+    public $keyType = 'int';
+    public $timestamps = false;
     
     use HasFactory;
 }
